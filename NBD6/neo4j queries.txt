@@ -1,0 +1,37 @@
+-- 1 -- 
+MATCH sp=shortestPath((t:town {name:"Darjeeling"})-[*]-(p:peak {name:"Sandakphu"})) RETURN sp
+
+-- 2 -- 
+MATCH sp=shortestPath((t:town {name:"Darjeeling"})-[*]-(p:peak {name:"Sandakphu"})) WHERE ALL(route IN RELATIONSHIPS(sp) WHERE route.winter ='true') RETURN sp
+
+-- 3.1 --
+MATCH path = (t:town { name: "Darjeeling" })-[route*..100]->(p:peak { name: "Sandakphu" }) RETURN path, REDUCE(i = 0, r IN route | i + r.distance) AS route_distance ORDER BY route_distance
+
+-- 3.2 --
+MATCH path=(t:town {name:"Rimbik"})-[:twowheeler*]->(destination) WHERE ALL(route IN RELATIONSHIPS(path) WHERE route.summer ='true') RETURN path,t
+
+-- 4 --
+MATCH (f:Flight)-[:ORIGIN]->(a:Airport) RETURN a,count(f) AS flights ORDER BY flights
+
+-- 5 -- 
+
+
+-- 6 -- 
+//brak wyników, brak eksportów do svgi json
+MATCH  flight=(a:Airport { name:"LAX" })-[fl:CONNECTION*]->(a2: Airport {name:'DAY'}) WITH flight, RELATIONSHIPS(flight) AS f	RETURN flight, REDUCE(price = 0, f IN f | price + f.price) AS price ORDER BY price
+
+-- 7 -- 
+//brak wyników, brak eksportów do svg i json
+MATCH  flight=(a:Airport { name:"LAX" })-[fl:CONNECTION*]->(a2: Airport {name:'DAY'}) WITH flight, RELATIONSHIPS(flight) AS f	RETURN flight, REDUCE(price = 0, f IN f | price + f.price) AS price ORDER BY price LIMIT 1
+
+-- 8 --
+//brak wyników, brak eksportów do svg i json 
+MATCH  ((a1:Airport {name:"LAX"})-[r*..3{class:"business"}]->(a2:Airport {name:"DAY"})) WITH a1, a2, REDUCE (t=0, r IN r | t + r.price) AS price RETURN price, a1, a2 ORDER BY price LIMIT 1
+
+-- 9 --
+MATCH (a:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(a2:Airport) RETURN a, COUNT(DISTINCT a2) AS relations ORDER BY relations
+
+-- 10 --
+//brak wyników, brak eksportów do svg i json
+MATCH (a:Airport)-[c1:CHEAPEST_FLIGHT]-(a2:Airport)-[c2:CHEAPEST_FLIGHT]-(a3:Airport) WHERE (a)<>(a3) AND (a)<>(a2) AND (a2)<>(a3)
+RETURN a.name AS Port1, a2.name AS Port2, a3.name AS Port3, min(c1.price + c2.price) as Cheapest ORDER BY Cheapest LIMIT 1
