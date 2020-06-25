@@ -1,0 +1,41 @@
+Nie skopiowały mi się komendy z wirtualki, więc dane mogą sie minimalnie różnić od tych z plikow wynikowych, bo piszę jeszcze raz
+
+-- 1 --
+
+curl -XPOST -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie", "premiere": 1880/11/11, "actors": 50, "autor": "John"}' http://localhost:8098/buckets/s13681/keys/przedstawienie1 &>> wynik1.txt
+
+curl -XPOST -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie2", "premiere": 1880/11/11, "actors": 50, "autor": "John"}' http://localhost:8098/buckets/s13681/keys/przedstawienie2 &>> wynik1.txt
+
+curl -XPOST -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie3", "premiere": 1880/11/11, "actors": 50, "autor": "John"}' http://localhost:8098/buckets/s13681/keys/przedstawienie3 &>> wynik1.txt
+
+curl -XPOST -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie4", "premiere": 1880/11/11, "actors": 50, "autor": "John"}' http://localhost:8098/buckets/s13681/keys/przedstawienie4 &>> wynik1.txt
+
+curl -XPOST -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie5", "premiere": 1880/11/11, "actors": 50, "autor": "John"}' http://localhost:8098/buckets/s13681/keys/przedstawienie5 &>> wynik1.txt
+
+-- 2 --
+curl -i http://localhost:8098/buckets/s13681/keys/przedstawienie1 &>> wynik2.txt
+
+-- 3 --
+curl -XPUT -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie", "premiere": 1880/11/11, "actors": 50, "autor": "John", "new-field" : "test"}' http://localhost:8098/buckets/s13681/keys/przedstawienie1 &>> wynik3.txt
+
+-- 4 --
+curl -XPUT -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie3", "premiere": 1880/11/11, "actors": 50}' http://localhost:8098/buckets/s13681/keys/przedstawienie3 &>> wynik4.txt
+
+-- 5 --
+curl -XPUT -i -H "Content-Type: application/json" -d '{"title": "JezioroLabedzie5", "premiere": 1880/11/11, "actors": 50, "autor": "Test"}' http://localhost:8098/buckets/s13681/keys/przedstawienie5 &>> wynik5.txt
+
+-- 6 --
+curl -XDELETE -i http://localhost:8098/buckets/s13681/keys/przedstawienie4 &>> wynik6.txt
+
+-- 7 --
+curl -i http://localhost:8098/buckets/s13681/keys/przedstawienie100010001 &>> wynik7.txt
+
+-- 8 --
+curl -XPOST -i -H "Content-Type: application/json" -d '{"test": "test"}' http://localhost:8098/buckets/s13681/keys/ &>> wynik8.txt
+
+-- 9 --
+curl -i http://localhost:8098/buckets/s13681/keys?keys=true &>> wynik9.txt
+curl -i http://localhost:8098/buckets/s13681/keys/  <= tu byłby wygenerowany klucz przypisany do obiektu z zadania 8 &>> wynik9.txt
+
+-- 10 --
+curl -XDELETE -i http://localhost:8098/buckets/s13681/keys/  <= tu byłby wygenerowany klucz przypisany do obiektu z zadania 8  &>> wynik10.txt

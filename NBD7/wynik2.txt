@@ -1,0 +1,15 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    83  100    83    0     0  12946      0 --:--:-- --:--:-- --:--:-- 13833
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVIcypz/foZIOM/NYEpkz2NleOmXcYMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Link: </buckets/s13681>; rel="up"
+Last-Modified: Wed, 24 Jun 2020 22:25:45 GMT
+ETag: "60j2kO2Rl2TLitbgpGlHlZ"
+Date: Wed, 24 Jun 2020 22:26:59 GMT
+Content-Type: application/json
+Content-Length: 83
+
+{"title": "JezioroLabedzie", "premiere": 1880/11/11, "actors": 50, "autor": "John"}

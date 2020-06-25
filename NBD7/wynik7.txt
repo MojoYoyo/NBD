@@ -1,0 +1,10 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    10  100    10    0     0    491      0 --:--:-- --:--:-- --:--:--   500
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:27:29 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

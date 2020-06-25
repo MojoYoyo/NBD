@@ -1,0 +1,50 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    83    0     0  100    83      0  12492 --:--:-- --:--:-- --:--:-- 13833
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:25:45 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    84    0     0  100    84      0  12234 --:--:-- --:--:-- --:--:-- 14000
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:25:59 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    84    0     0  100    84      0  11459 --:--:-- --:--:-- --:--:-- 12000
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:26:04 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    84    0     0  100    84      0  11343 --:--:-- --:--:-- --:--:-- 12000
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:26:08 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    84    0     0  100    84      0   9357 --:--:-- --:--:-- --:--:-- 10500
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:26:14 GMT
+Content-Type: application/json
+Content-Length: 0
+
