@@ -1,0 +1,23 @@
+-- 1 --
+MATCH (m: Movie) return m
+
+-- 2 -- 
+MATCH (p:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie) RETURN p, m
+
+-- 3 --
+MATCH (p: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m: Movie)<-[:DIRECTED]-(d) RETURN d
+
+-- 4 -- 
+MATCH (p: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m: Movie)<-[:ACTED_IN]-(a) RETURN a
+
+-- 5 -- 
+MATCH (m:Movie)<-[:ACTED_IN]-(a) WHERE (a)-[:ACTED_IN]->(:Movie { title: "The Matrix" })RETURN m, a
+
+-- 6 -- 
+MATCH (m:Movie)<-[ACTED_IN]-(p:Person) WITH p, count(m) as movies_played WHERE movies_played > 0 RETURN p, movies_played
+
+-- 7 --
+MATCH (p:Person)-[:WROTE]->(m) WHERE (p)-[:DIRECTED]->(m) RETURN p, m
+
+-- 8 --
+MATCH (p:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(p2:Person {name:"Keanu Reeves"}) RETURN m, p, p2
