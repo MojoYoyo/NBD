@@ -1,0 +1,371 @@
+MongoDB shell version v4.2.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("03a06502-eeff-418a-8fcd-6521dc6d23c8") }
+MongoDB server version: 4.2.8
+[
+	{
+		"_id" : "CAD",
+		"Avarage credit balance" : 5306.872727272727,
+		"Total credit balance" : 58375.6
+	},
+	{
+		"_id" : "IRR",
+		"Avarage credit balance" : 4417.373333333333,
+		"Total credit balance" : 26504.239999999998
+	},
+	{
+		"_id" : "ILS",
+		"Avarage credit balance" : 5431.83,
+		"Total credit balance" : 16295.49
+	},
+	{
+		"_id" : "PEN",
+		"Avarage credit balance" : 4661.235,
+		"Total credit balance" : 18644.94
+	},
+	{
+		"_id" : "HRK",
+		"Avarage credit balance" : 4870.964,
+		"Total credit balance" : 24354.82
+	},
+	{
+		"_id" : "MXN",
+		"Avarage credit balance" : 5022.9,
+		"Total credit balance" : 50229
+	},
+	{
+		"_id" : "BOB",
+		"Avarage credit balance" : 5263.3,
+		"Total credit balance" : 5263.3
+	},
+	{
+		"_id" : "RUB",
+		"Avarage credit balance" : 4989.547916666666,
+		"Total credit balance" : 119749.15
+	},
+	{
+		"_id" : "DOP",
+		"Avarage credit balance" : 5168.6849999999995,
+		"Total credit balance" : 20674.739999999998
+	},
+	{
+		"_id" : "ISK",
+		"Avarage credit balance" : 4316.41,
+		"Total credit balance" : 4316.41
+	},
+	{
+		"_id" : "USD",
+		"Avarage credit balance" : 4978.732,
+		"Total credit balance" : 74680.98
+	},
+	{
+		"_id" : "HNL",
+		"Avarage credit balance" : 5504.863333333334,
+		"Total credit balance" : 16514.59
+	},
+	{
+		"_id" : "BYR",
+		"Avarage credit balance" : 5095.79,
+		"Total credit balance" : 5095.79
+	},
+	{
+		"_id" : "PHP",
+		"Avarage credit balance" : 4941.928333333333,
+		"Total credit balance" : 118606.28
+	},
+	{
+		"_id" : "JPY",
+		"Avarage credit balance" : 5078.7283333333335,
+		"Total credit balance" : 60944.74
+	},
+	{
+		"_id" : "GTQ",
+		"Avarage credit balance" : 5806.3,
+		"Total credit balance" : 5806.3
+	},
+	{
+		"_id" : "VEF",
+		"Avarage credit balance" : 4166.64,
+		"Total credit balance" : 8333.28
+	},
+	{
+		"_id" : "THB",
+		"Avarage credit balance" : 4604.392,
+		"Total credit balance" : 23021.96
+	},
+	{
+		"_id" : "SEK",
+		"Avarage credit balance" : 5060.013571428572,
+		"Total credit balance" : 70840.19
+	},
+	{
+		"_id" : "CNY",
+		"Avarage credit balance" : 4954.740842105263,
+		"Total credit balance" : 470700.38
+	},
+	{
+		"_id" : "MWK",
+		"Avarage credit balance" : 3574.42,
+		"Total credit balance" : 3574.42
+	},
+	{
+		"_id" : "GBP",
+		"Avarage credit balance" : 6149.19,
+		"Total credit balance" : 6149.19
+	},
+	{
+		"_id" : "XAF",
+		"Avarage credit balance" : 4698.22,
+		"Total credit balance" : 14094.66
+	},
+	{
+		"_id" : "ZAR",
+		"Avarage credit balance" : 3930.306666666667,
+		"Total credit balance" : 11790.92
+	},
+	{
+		"_id" : "RSD",
+		"Avarage credit balance" : 4276.56,
+		"Total credit balance" : 4276.56
+	},
+	{
+		"_id" : "UAH",
+		"Avarage credit balance" : 5058.9800000000005,
+		"Total credit balance" : 40471.840000000004
+	},
+	{
+		"_id" : "KYD",
+		"Avarage credit balance" : 3760.89,
+		"Total credit balance" : 3760.89
+	},
+	{
+		"_id" : "PYG",
+		"Avarage credit balance" : 4874.69,
+		"Total credit balance" : 4874.69
+	},
+	{
+		"_id" : "SRD",
+		"Avarage credit balance" : 5286.68,
+		"Total credit balance" : 5286.68
+	},
+	{
+		"_id" : "CLP",
+		"Avarage credit balance" : 5252.2375,
+		"Total credit balance" : 21008.95
+	},
+	{
+		"_id" : "MGA",
+		"Avarage credit balance" : 4853.663333333333,
+		"Total credit balance" : 14560.99
+	},
+	{
+		"_id" : "CUP",
+		"Avarage credit balance" : 5005.78,
+		"Total credit balance" : 15017.34
+	},
+	{
+		"_id" : "ARS",
+		"Avarage credit balance" : 4648.4,
+		"Total credit balance" : 23242
+	},
+	{
+		"_id" : "ALL",
+		"Avarage credit balance" : 3325.48,
+		"Total credit balance" : 3325.48
+	},
+	{
+		"_id" : "IQD",
+		"Avarage credit balance" : 4269.39,
+		"Total credit balance" : 4269.39
+	},
+	{
+		"_id" : "NZD",
+		"Avarage credit balance" : 5328.46,
+		"Total credit balance" : 5328.46
+	},
+	{
+		"_id" : "LYD",
+		"Avarage credit balance" : 4382.495,
+		"Total credit balance" : 8764.99
+	},
+	{
+		"_id" : "XOF",
+		"Avarage credit balance" : 5960.683333333333,
+		"Total credit balance" : 17882.05
+	},
+	{
+		"_id" : "TJS",
+		"Avarage credit balance" : 4087.71,
+		"Total credit balance" : 4087.71
+	},
+	{
+		"_id" : "UZS",
+		"Avarage credit balance" : 3573.03,
+		"Total credit balance" : 3573.03
+	},
+	{
+		"_id" : "NGN",
+		"Avarage credit balance" : 4157.705,
+		"Total credit balance" : 24946.23
+	},
+	{
+		"_id" : "TZS",
+		"Avarage credit balance" : 3526.1850000000004,
+		"Total credit balance" : 7052.370000000001
+	},
+	{
+		"_id" : "COP",
+		"Avarage credit balance" : 4936.6825,
+		"Total credit balance" : 19746.73
+	},
+	{
+		"_id" : "XPF",
+		"Avarage credit balance" : 4759.07,
+		"Total credit balance" : 4759.07
+	},
+	{
+		"_id" : "VUV",
+		"Avarage credit balance" : 6418.27,
+		"Total credit balance" : 6418.27
+	},
+	{
+		"_id" : "CDF",
+		"Avarage credit balance" : 6114.4,
+		"Total credit balance" : 12228.8
+	},
+	{
+		"_id" : "ETB",
+		"Avarage credit balance" : 5436.11,
+		"Total credit balance" : 5436.11
+	},
+	{
+		"_id" : "BWP",
+		"Avarage credit balance" : 4076.29,
+		"Total credit balance" : 4076.29
+	},
+	{
+		"_id" : "AMD",
+		"Avarage credit balance" : 4921.866,
+		"Total credit balance" : 24609.33
+	},
+	{
+		"_id" : "IDR",
+		"Avarage credit balance" : 4907.918030303031,
+		"Total credit balance" : 323922.59
+	},
+	{
+		"_id" : "CZK",
+		"Avarage credit balance" : 4644.5525,
+		"Total credit balance" : 37156.42
+	},
+	{
+		"_id" : "NIO",
+		"Avarage credit balance" : 4985.64,
+		"Total credit balance" : 9971.28
+	},
+	{
+		"_id" : "BRL",
+		"Avarage credit balance" : 4512.001818181819,
+		"Total credit balance" : 49632.020000000004
+	},
+	{
+		"_id" : "EGP",
+		"Avarage credit balance" : 5579.3,
+		"Total credit balance" : 5579.3
+	},
+	{
+		"_id" : "NOK",
+		"Avarage credit balance" : 4773.66,
+		"Total credit balance" : 4773.66
+	},
+	{
+		"_id" : "MYR",
+		"Avarage credit balance" : 4781.12,
+		"Total credit balance" : 4781.12
+	},
+	{
+		"_id" : "BGN",
+		"Avarage credit balance" : 5300.22,
+		"Total credit balance" : 21200.88
+	},
+	{
+		"_id" : "PLN",
+		"Avarage credit balance" : 5042.821111111111,
+		"Total credit balance" : 90770.78
+	},
+	{
+		"_id" : "YER",
+		"Avarage credit balance" : 4570.833333333333,
+		"Total credit balance" : 13712.5
+	},
+	{
+		"_id" : "MAD",
+		"Avarage credit balance" : 3818.85,
+		"Total credit balance" : 3818.85
+	},
+	{
+		"_id" : "AFN",
+		"Avarage credit balance" : 5585.163333333334,
+		"Total credit balance" : 16755.49
+	},
+	{
+		"_id" : "RWF",
+		"Avarage credit balance" : 4632.88,
+		"Total credit balance" : 4632.88
+	},
+	{
+		"_id" : "ZWL",
+		"Avarage credit balance" : 5792.17,
+		"Total credit balance" : 5792.17
+	},
+	{
+		"_id" : "PKR",
+		"Avarage credit balance" : 4734.5,
+		"Total credit balance" : 18938
+	},
+	{
+		"_id" : "ZMW",
+		"Avarage credit balance" : 5569.56,
+		"Total credit balance" : 5569.56
+	},
+	{
+		"_id" : "MNT",
+		"Avarage credit balance" : 5428.9025,
+		"Total credit balance" : 21715.61
+	},
+	{
+		"_id" : "KRW",
+		"Avarage credit balance" : 6689.91,
+		"Total credit balance" : 13379.82
+	},
+	{
+		"_id" : "EUR",
+		"Avarage credit balance" : 4901.8294,
+		"Total credit balance" : 245091.47
+	},
+	{
+		"_id" : "KZT",
+		"Avarage credit balance" : 3788.95,
+		"Total credit balance" : 3788.95
+	},
+	{
+		"_id" : "MKD",
+		"Avarage credit balance" : 3835.05,
+		"Total credit balance" : 3835.05
+	},
+	{
+		"_id" : "VND",
+		"Avarage credit balance" : 4520.0325,
+		"Total credit balance" : 36160.26
+	},
+	{
+		"_id" : "NPR",
+		"Avarage credit balance" : 5792.26,
+		"Total credit balance" : 5792.26
+	},
+	{
+		"_id" : "MMK",
+		"Avarage credit balance" : 4629.42,
+		"Total credit balance" : 4629.42
+	}
+]
