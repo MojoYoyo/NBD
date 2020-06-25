@@ -1,0 +1,27 @@
+printjson(db.people.insertOne( 
+    { 
+        "sex":"Male",
+        "first_name":"Przemek",
+        "last_name":"Borowiecki",
+        "job":"Piekarz",
+        "email":"s13681@pjwstk.edu.pl",
+        "location":
+        {
+            "city":"Warszawa","address":
+            {
+                "streetname":"Koszykowa",
+                "streetnumber":"86"
+            }
+        },
+        "description":"test insert exercise 6",
+        "height":"180",
+        "weight":"72",
+        "birth_date":"1996-06-15",
+        "nationality":":Poland",
+        "credit":[ 
+        {
+            "type":"mastercard",
+            "number":"1234567890123456",
+            "currency":"EUR",
+            "balance":"1"
+            }]}));

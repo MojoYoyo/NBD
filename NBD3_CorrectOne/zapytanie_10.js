@@ -1,0 +1,1 @@
+printjson(db.nbd.updateMany( { job: "Editor" }, { $unset: { email: null} } ));
